@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node index
-EXPOSE 8081
+EXPOSE 3000
